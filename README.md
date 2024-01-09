@@ -1,9 +1,14 @@
-# FallChallenge2023-SeabedSecurity
+# FallChallenge2023-SeabedSecurity Benchmark
 
-Source code for CodinGame's Fall Challenge 2023 event.
+Fork of CodinGame's Spring Challenge 2023 event. https://www.codingame.com/contests/fall-challenge-2023
 
-https://www.codingame.com/contests/fall-challenge-2023
+Allow to benchmark a bot against a set of reference bots, with fixed seeds, and for each seed both start positions.
 
-Community starter AIs are located here:
+requires :
+ - current bot to be compiled as `../bots/seabed`
+ - reference bots compiled in `../bechmark/`
 
-https://github.com/CodinGame/FallChallenge2023-SeabedSecurity/tree/main/starterAIs
+Install and run :
+```bash
+mvn package && java -jar target/spring-2023-ants-1.0-SNAPSHOT.jar
+```
