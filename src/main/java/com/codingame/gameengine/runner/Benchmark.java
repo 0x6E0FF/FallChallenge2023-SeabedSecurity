@@ -1,4 +1,4 @@
-package com.codingame.game;
+package com.codingame.gameengine.runner;
 import java.io.*;
 
 import com.codingame.gameengine.runner.MultiplayerGameRunner;
